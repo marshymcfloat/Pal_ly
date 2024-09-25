@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("/fonts/Termina-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("/fonts/Epilogue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
